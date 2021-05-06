@@ -2,39 +2,23 @@
 
 <head>
     <style>
-        .video-container {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 99%;
-            height: 100%;
-            overflow: hidden;
-        }
-
-        .video-container video {
-            /* Make video to at least 100% wide and tall */
-            min-width: 1%;
-            min-height: 100%;
-
-            /* Setting width & height to auto prevents the browser from stretching or squishing the video */
-            width: auto;
-            height: auto;
-
-            /* Center the video */
+        h2 {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            font-family: 'Inconsolata', monospace;
         }
     </style>
+
 </head>
 
 <body>
-    <div class="video-container"><video autoplay loop muted height="220" width="390">
-        <source
-            src="https://cdn.discordapp.com/attachments/337617578128048129/839875978036772924/n_aCtE0Yum5ZqfRT_1.mp4"
-            type="video/mp4">
-        </video></div>
+    <h2> <span id="ip"></span>Sou o manel e tenho <span id="age"></span> anos <img
+            src="https://i.imgur.com/NTzFMmm.png" /></h2>
+
+    <script type="text/javascript" src="js/age.js"></script>
+    <script type="text/javascript" src="js/ip.js"></script>
 </body>
 
 </html>
