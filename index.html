@@ -12,7 +12,7 @@
             color: #eeeeee;
         }
 
-        h2 {
+        .center h2 {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -24,13 +24,31 @@
         span {
             color: #aad8d3;
         }
+
+        .footer h2 {
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: fixed;
+            bottom: 0;
+            font-family: 'Roboto', monospace;
+            text-align: center;
+            font-size: medium;
+        }
     </style>
 
 </head>
 
 <body>
 
-    <h2>boas, sou o manel e tenho <span id="age"></span> anos <img src="https://i.imgur.com/NTzFMmm.png" /></h2>
+    <div class="center">
+        <h2>boas, sou o manel e tenho <span id="age"></span> anos <img src="https://i.imgur.com/NTzFMmm.png" /></h2>
+    </div>
+
+    <div class="footer">
+        <h2>&copy;<span id="copyright">
+                <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+            </span> Manuel Silva</h2>
+    </div>
 
     <script type="text/javascript" src="js/age.js"></script>
 
