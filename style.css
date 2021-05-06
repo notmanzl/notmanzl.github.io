@@ -1,0 +1,32 @@
+body {
+    background-color: #26292e;
+    color: #eeeeee;
+}
+
+a {
+    color: #eeeeee; 
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', monospace;
+    text-align: center;
+    font-size: x-large;
+}
+
+span {
+    color: #aad8d3;
+}
+
+.footer h2 {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    bottom: 0;
+    font-family: 'Roboto', monospace;
+    text-align: center;
+    font-size: medium;
+}
