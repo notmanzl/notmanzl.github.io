@@ -21,11 +21,16 @@ span {
     color: #aad8d3;
 }
 
-.footer h2 {
+.footer {
+    background-color: #26292e;
+    width: 100%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
     position: fixed;
     bottom: 0;
+}
+
+.footer h2 {
     font-family: 'Roboto', monospace;
     text-align: center;
     font-size: medium;
