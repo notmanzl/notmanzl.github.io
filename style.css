@@ -4,7 +4,7 @@ body {
 }
 
 a {
-    color: #eeeeee; 
+    color: #eeeeee;
 }
 
 .center {
@@ -34,4 +34,20 @@ span {
     font-family: 'Roboto', monospace;
     text-align: center;
     font-size: medium;
+}
+
+#name1 span#name1 {
+    display: inline;
+}
+
+#names:hover span#name1 {
+    display: none;
+}
+
+#names span#name2 {
+    display: none;
+}
+
+#names:hover span#name2 {
+    display: inline;
 }
